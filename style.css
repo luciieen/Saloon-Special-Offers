@@ -52,21 +52,24 @@ a {
 
 /* conrtainer 2 */
 
-.homepage > h2 {
-  background-color: rgb(234, 234, 234);
-  color: rgb(0, 0, 0);
-  border-radius: 20px;
-  padding: 9px 40px;
-}
-
-.homepage {
+.home {
   position: absolute;
-  margin: -40px 0px 0px -310px;
+  margin-left: -1400px;
+  background-color: rgb(224, 224, 224);
+  padding: 10px;
+  border-radius: 50%;
 }
 
-.homepage:hover {
-  margin-left: -230px;
+.home:hover {
+  background-color: rgb(137, 137, 137);
+  padding: 10px;
+  border-radius: 50%;
   transition: 1s;
+  color: white;
+}
+
+.fa-house {
+  font-size: 30px;
 }
 
 .cont2 {
